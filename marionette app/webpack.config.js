@@ -39,7 +39,7 @@ const webpackCommon = {
   plugins: [
     new ExtractTextPlugin('app.css'),
     new CopyWebpackPlugin([{
-      from: './app/assets/index.html',
+      from: './app/index.html',
       to: './index.html'
     }]),
     new webpack.ProvidePlugin({

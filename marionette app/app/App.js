@@ -1,10 +1,10 @@
 import Marionette from 'backbone.marionette';
-import ItemView from './views/RootView';
+import RootView from './views/RootView';
 
 export default Marionette.Application.extend({
   region: '#app',
 
   onStart() {
-    this.showView(new ItemView());
+    this.showView(new RootView());
   }
 });

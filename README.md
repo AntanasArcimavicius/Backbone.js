@@ -1,14 +1,9 @@
-# Backbone.js
+# Backbone.Marionette + Django
 
-Repository for backbone.js training
+Experimenting on Backbone.Marionette/Django structure
 
-Backbone.js todo list app.
+Marionette code compiled with webpack, + babel, css, underscore template loaders
 
--   To start app simply open index.html in chrome.
+Code is served trough django static files
 
-Marionette.js library app.
-
--   npm start — starts project
--   npm run build - builds you project
-
-Both are for examples and for comparison between pure backbone and marionette
+You need to run django server in web and npm run dev in front to watch for file changes

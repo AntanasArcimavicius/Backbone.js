@@ -1,10 +1,10 @@
 import Marionette from 'backbone.marionette';
-import ItemView from './components/HomeView/HomeView';
+import HomeView from './components/HomeView/HomeView';
 
 export default Marionette.Application.extend({
-  region: '#app',
+    region: '#app',
 
-  onStart() {
-    this.showView(new ItemView());
-  }
+    onStart() {
+        this.showView(new HomeView());
+    },
 });

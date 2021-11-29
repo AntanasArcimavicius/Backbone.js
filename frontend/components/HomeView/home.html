@@ -5,7 +5,9 @@
 		<li><a href="https://webpack.github.io/">Webpack homepage</a></li>
 		<li><a href="http://marionettejs.com/">Marionette.js homepage</a></li>
 
-		<li><%- underscore %></li>
+		<% if (ifstatement) { %>
+			<li><%- underscore %></li>
+		<% } %>
 
 	</ul>
 	<div id="other-view"></div>

@@ -7,7 +7,7 @@ export default Marionette.View.extend({
 
     templateContext: function() {
         return {
-            underscore: "This how it works",
+            underscore: "Underscore variable and if statement here",
             ifstatement: true,
         };
     },

@@ -1,6 +1,13 @@
-import {Marionette} from '../../vendor/vendor';
-import template from '../templates/item.jst';
+import { Marionette } from '../../vendor/vendor';
+import template from '../templates/item.html';
 
 export default Marionette.View.extend({
-  template: template
+    template: template,
+
+    templateContext() {
+        return {
+            underscore: 'This is underscore variable',
+            ifstatement: true,
+        };
+    },
 });

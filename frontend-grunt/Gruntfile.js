@@ -15,7 +15,7 @@ module.exports = function (grunt) {
                 },
                 files: {
                     // output: input
-                    './public/app.js': ['./app/initialize.js'],
+                    '../web/static/index-grunt.js': ['./app/initialize.js'],
                 },
             },
         },
